@@ -42,7 +42,6 @@ int main(int argc, char *argv[]) {
       long num = strtol(buffer, NULL, 10);
       if (operator== '/' && num == 0) {
         printf("ERROR\n");
-        fclose(infile);
         return 0;
       }
       if (operator== '+') {
@@ -64,6 +63,5 @@ int main(int argc, char *argv[]) {
   }
 
   printf("%ld\n", current_total);
-  fclose(infile);
   return 0;
 }
