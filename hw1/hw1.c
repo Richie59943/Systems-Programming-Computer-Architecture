@@ -52,11 +52,11 @@ int sum_of_greater_squares(int a, int b, int c) {
   int b_sq = b * b;
   int c_sq = c * c;
 
-  if (a_sq > b_sq && c_sq > b_sq)
+  if (a_sq >= b_sq && c_sq >= b_sq)
 
   {
     return a_sq + c_sq;
-  } else if (b_sq > a_sq && c_sq > a_sq) {
+  } else if (b_sq >=  a_sq && c_sq >= a_sq) {
     return b_sq + c_sq;
   } else {
     return a_sq + b_sq;
