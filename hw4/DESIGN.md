@@ -1,11 +1,11 @@
 # Homework 4: Design Document 
     
-    * author: Ricardo Ramirez
-    * date: February 6, 2025
+ * author: Ricardo Ramirez
+ * date: February 6, 2025
 
 ## Introduction 
 
-    Going to create a functional text editor using linked lists for managing text lines and stacks to support a undo feature. The nine functions I am going to write will be able to make this text editor work.
+Going to create a functional text editor using linked lists for managing text lines and stacks to support a undo feature. The nine functions I am going to write will be able to make this text editor work.
 
 ## Function 1: ll_text *append_text(ll_text *list, char *text)
 
