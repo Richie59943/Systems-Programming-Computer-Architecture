@@ -13,7 +13,7 @@ Customer *create_customer(const char *email, const char *name, int shoe_size,
   new_customer->favorite_food = strdup(favorite_food);
   new_customer->next = NULL;
   return new_customer;
-  free(new_customer);
+ free(new_customer); 
      if (!new_customer->email || !new_customer->name || !new_customer->favorite_food) {
         free(new_customer->email);
         free(new_customer->name);
